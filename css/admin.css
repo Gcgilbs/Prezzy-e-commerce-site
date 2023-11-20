@@ -1,0 +1,115 @@
+.form{
+    background-color: #050521;
+    color: #fff;
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px 0 50px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.form form{
+    width: 90%;
+    margin: auto;
+}
+
+.input{
+    width: 100%;
+    padding: 8px 10px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.form label{
+    display: block;
+    padding: 20px 0 5px;
+    
+}
+
+.formcontrol{
+    border: none;
+    background-color: #00b2f1;
+    padding: 10px 20px;
+    margin: 30px 0 0;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.textup{
+    text-align: center;
+    border-bottom: 1px solid #00b2f1;
+    padding-bottom: 5px;
+}
+
+.available{
+    margin: 25px 0 10px;
+    display: block;
+    font-size: 16px;
+}
+
+.check{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #050521;
+    gap: 5px;
+}
+
+.checkform{
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    width: 150px;
+    position: relative;
+    /* z-index: 90; */
+    transition: background-color 0.3s;
+}
+
+
+.check label{
+    padding: 3px 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.check input{
+    /* padding-left: 10px; */
+    height: 16px;
+    width: 25px;
+    margin: 0 auto;
+    display: none;
+    
+}
+
+#size-6:checked + label {
+    background-color: #00cc00; /* Change to your desired background color */
+  }
+
+.divalert-danger {
+    padding: 1em;
+    margin: 1em 1em 1em;
+    border-radius: 5px;
+    box-shadow: 1px 1px 9px 2px gray;
+    background-color: #ff0000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.close {
+    width: 30px;
+    border-top: 1px solid black;
+    transform: rotate(45deg);
+}
+
+.close2 {
+    width: 30px;
+    border-bottom: 1px solid black;
+    transform: rotate(-45deg);
+}
+
+.setclose-danger {
+    border: none;
+    background-color: red;
+}
